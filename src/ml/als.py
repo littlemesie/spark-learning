@@ -49,7 +49,8 @@ if __name__ == "__main__":
     # Generate top 10 movie recommendations for each user
     user_recs = model.recommendForAllUsers(10)
     recs = user_recs.select("userId", "recommendations").collect()
-    for ur in user_recs:
+    for ur in recs:
+        recommendations = list(row['movieId'] for row in ur['recommendations'])
         print("userId: {}, recommendations: {}".format(ur['userId'], ur['recommendations']))
     # # Generate top 10 user recommendations for each movie
     # movieRecs = model.recommendForAllItems(10)
