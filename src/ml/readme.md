@@ -3,3 +3,5 @@
 - [logistic regression](logistic_regression.py)
 
 - [als](als.py)
+
+- [kmeans](kmeans.py)
