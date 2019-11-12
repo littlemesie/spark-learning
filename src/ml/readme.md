@@ -5,3 +5,5 @@
 - [als](als.py)
 
 - [kmeans](kmeans.py)
+
+- [tf-idf](tf_idf.py)
