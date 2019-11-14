@@ -26,5 +26,11 @@ if __name__ == "__main__":
 
     print("ChiSqSelector output with top %d features selected" % selector.getNumTopFeatures())
     result.show()
+    # sf = result.select('selectedFeatures').toPandas()
+    # print(sf)
+    # print(sf['selectedFeatures'])
+    # for i in sf['selectedFeatures']:
+    #     print(i)
+    #     print(type(i))
 
     spark.stop()
