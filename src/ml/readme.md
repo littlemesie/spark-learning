@@ -7,3 +7,5 @@
 - [kmeans](kmeans.py)
 
 - [tf-idf](tf_idf.py)
+
+- [chisq_selector](chisq_selector.py)
