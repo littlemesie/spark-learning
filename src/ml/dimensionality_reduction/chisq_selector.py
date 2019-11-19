@@ -2,7 +2,7 @@
 卡方选择器 算法
 Run with:
   bin/spark-submit --py-files='/Users/t/python/spark-learning/src/utils.zip' \
-  /Users/t/python/spark-learning/src/ml/chisq_selector.py
+  /Users/t/python/spark-learning/src/ml/dimensionality_reduction/chisq_selector.py
 """
 
 

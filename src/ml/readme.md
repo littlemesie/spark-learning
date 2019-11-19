@@ -1,11 +1,11 @@
 ### 机器学
 
-- [logistic regression](logistic_regression.py)
+- [logistic regression](classification/logistic_regression.py)
 
 - [als](als.py)
 
-- [kmeans](kmeans.py)
+- [kmeans](clustering/kmeans.py)
 
-- [tf-idf](tf_idf.py)
+- [tf-idf](nlp/tf_idf.py)
 
-- [chisq_selector](chisq_selector.py)
+- [chisq_selector](dimensionality_reduction/chisq_selector.py)

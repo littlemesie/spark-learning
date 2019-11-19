@@ -2,7 +2,7 @@
 kmeans算法
 Run with:
   bin/spark-submit --py-files='/Users/t/python/spark-learning/src/utils.zip' \
-  /Users/t/python/spark-learning/src/ml/kmeans.py
+  /Users/t/python/spark-learning/src/ml/clustering/kmeans.py
 """
 from pyspark.ml.clustering import KMeans,KMeansModel
 from pyspark.ml.evaluation import ClusteringEvaluator
