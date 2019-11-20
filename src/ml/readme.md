@@ -1,8 +1,8 @@
-### 机器学
+### 机器学习
 
 - [logistic regression](classification/logistic_regression.py)
 
-- [als](als.py)
+- [als](recommendation/als.py)
 
 - [kmeans](clustering/kmeans.py)
 
