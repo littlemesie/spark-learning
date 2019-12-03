@@ -1,4 +1,5 @@
 """
+ word2vec 算法
  bin/spark-submit --py-files='/Users/t/python/spark-learning/src/utils.zip' \
   /Users/t/python/spark-learning/src/ml/nlp/word2vec.py
 """
