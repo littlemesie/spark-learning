@@ -19,7 +19,7 @@
 ### **nlp**
 - [tf-idf](nlp/tf_idf.py)
 
-- [tokenizer(nlp/tokenizer.py)
+- [tokenizer](nlp/tokenizer.py)
 
 - [word2vec](nlp/word2vec.py)
 
