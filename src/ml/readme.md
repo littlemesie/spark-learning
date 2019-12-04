@@ -15,6 +15,8 @@
 - [chisq_selector](dimensionality_reduction/chisq_selector.py)
 
 ### **model_selection**
+- [cross_validator](model_selection/cross_validator.py)
+- [grid_search_cv](model_selection/grid_search_cv.py)
 
 ### **nlp**
 - [tf-idf](nlp/tf_idf.py)
